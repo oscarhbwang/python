@@ -1,3 +1,8 @@
 git clone
 
 touch hello.html
+
+git add git.txt
+
+
+git push
