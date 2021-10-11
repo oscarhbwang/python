@@ -6,3 +6,10 @@ git add git.txt
 
 
 git push
+
+
+##################
+xlwings
+pip install xlwings
+xlwings addin install
+xlwings quickstart xxxxx
