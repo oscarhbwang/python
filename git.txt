@@ -1,15 +1,106 @@
 git clone
 
 touch hello.html
-
 git add git.txt
-
-
 git push
-
 
 ##################
 xlwings
 pip install xlwings
 xlwings addin install
 xlwings quickstart xxxxx
+###########
+import sys
+sys.path
+cd ..../local/bin
+rm -rf python
+in -s /.....
+in    #a if in b
+tmp[] #return value postion
+
+list
+nll_list = ['','','']
+num_list = [1,2,3]
+str_lsit = ["1","2"]
+num_list + str.list
+num_list.append(4)
+num_list.insert(3,5)
+str_list.count("2")
+print(str_list[0])
+print(str_list[0:3])
+num_list.pop(0)
+num_list.remove(1)
+num_list.sort
+
+字典
+key:value
+key is uniquue
+test_dict = {}
+test_dic["ddd"] = 123
+test_dic["ccc"] = 124
+keys() #got all key in the dictionary
+
+元组：类似list但不能改
+tup = (1,2,3,4,5)
+len(tup)
+tup[]  tup[1:3]
+######################
+运算： // 取余数    ==比较  ！=
+循环语句
+for
+subject = ["1","2","3","4"]
+for sub in subject:
+    print("小明数:{}".format(sbu))
+while
+while condition :
+    statement
+
+likenum = 0
+while likenum <10
+    print("count number {}".format(likenum))
+    likenum +=1
+
+函数
+def 函数 （参数）：
+    语句块
+
+def learn_python(location):
+    print("我在{}上".format(location))
+learn_python("家")
+learn_python("飞机")
+learn_python("汽车")
+有返回值的函数
+def learn_python(location):
+    doing = "我在{}上".format(location)
+    return doing
+ret = learn_python("飞机")
+print(ret)
+#############################pandas#################
+import pandas as pd
+#series 类似于一组数的对象，有一组数和关联所以组成
+s1 = pd.Series(['a','b','c'],index = [1,2,3])
+
+DataFrame
+df1 = pd.dataframe([a,b,c,d])
+# cloumn = [], index = []
+
+导入 xlrd
+df = pd.read_excel(r"...path")
+sheet_name =
+index_col =
+header =
+nrows =
+encoding = 'gbk'
+
+df =pd.read_table(r"", sep=" "")
+
+print(df.head(3))
+print(df.shape)
+print(df.info())
+print(df.describe())
+
+
+
+
+
+
